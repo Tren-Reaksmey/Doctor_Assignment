@@ -55,9 +55,9 @@ public class DoctorAppointmentScheduler {
         for(AppointmentManager getappointment : AppointmentScheduler){
             if(getappointment.Patient_Name.equalsIgnoreCase(Patient)){
                 p=1;
-                System.out.println("Appointment has Found\n "+"Patient_Name: "+getappointment.Patient_Name+"\tDoctor_Name:"+getappointment.getDoctor().getDoctorName()
-                                                            +"\tSpecialization:"+getappointment.getDoctor().DoctorSpecailization+"\tTime:"+getappointment.getTime()
-                                                                +"\tDate: "+getappointment.getDate());
+                System.out.println("Appointment has Found\n "+"Patient_Name: "+getappointment.Patient_Name+"\nDoctor_Name:"+getappointment.getDoctor().getDoctorName()
+                                                            +"\nSpecialization:"+getappointment.getDoctor().DoctorSpecailization+"\nTime:"+getappointment.getTime()
+                                                                +"\nDate: "+getappointment.getDate());
 
             }
         }
